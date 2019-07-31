@@ -1,0 +1,88 @@
+body{
+  background-image: url("../images/wall.png");
+  
+}
+
+
+  
+h2{
+  color: rgb(2, 182, 164);
+  text-align: left;
+  
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+/* background image control in here */
+
+.about{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 960px;
+  margin:auto;
+  border-style: ridge;
+  padding: 90px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  background-color: #ffffff;
+  
+}
+
+li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+
+
+
+ header{
+   background-color: #ffffff; 
+   border-color: #cccccc
+ }
+footer{
+  padding:3px;
+  color: white;
+  background-color: #666666;
+  text-align: center;
+  border-top: rgb(2, 182, 164) 3px solid;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  width: 100%;
+}
+#name{
+  
+  background-color: rgb(2, 182, 164);
+  color: white;
+  width:250px;
+
+  
+}
+.name-title{
+  float: right;
+  
+}
+/* Portfolio images */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  
+
+}
+
+.profile{
+  
+  float:left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+
+
+
