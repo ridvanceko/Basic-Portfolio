@@ -28,19 +28,52 @@ h2{
   line-height: 30px;
   font-size: 20px;
   background-color: #ffffff;
+
+  }
+
+  .portfolio{
+    font-family: Arial, Helvetica, sans-serif;
+  width: 960px;
+  margin:auto;
+  border-style: ridge;
+  padding: 90px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  background-color: #ffffff;
+    
+  }
+
+ 
+    
+
+  .contact{
+    font-family: Arial, Helvetica, sans-serif;
+  width: 960px;
+  margin:auto;
+  border-style: ridge;
+  padding: 90px;
+  text-align: left;
+  line-height: 30px;
+  font-size: 20px;
+  background-color: #ffffff;
+  }
+
+  .message{
+    width: 250px;
+    height: 100px;
+    
+  }
   
-}
+
 
 li{
-  float: left;
+
   display: inline;
   padding: 0 20px 0 20px;
 }
 
-
-
-
- header{
+header{
    background-color: #ffffff; 
    border-color: #cccccc
  }
@@ -60,20 +93,31 @@ footer{
   background-color: rgb(2, 182, 164);
   color: white;
   width:250px;
+}
 
-  
-}
-.name-title{
+nav {
   float: right;
-  
+  font-size: 20px;
+  margin-bottom: 20px;
 }
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+li{
+  display: inline;
+  padding: 0 20px 0 20px;
+
+}
+
 /* Portfolio images */
 .column {
   flex: 33.33%;
   padding: 5px;
-  
-
-}
+  position: relative;
+  }
 
 .profile{
   
@@ -82,6 +126,7 @@ footer{
   margin-bottom: 10px;
   margin-right: 10px;
 }
+
 
 
 
